@@ -53,6 +53,7 @@ body
 {
     background-image: url("images/teamBack.jpg");
     background-size: cover;
+    overflow-x: hidden;
 }
 
 
