@@ -13,3 +13,27 @@ function carousel() {
   setTimeout(carousel, 7000); // Change image every 2 seconds
 }
 
+$('.customer').on('click',function(){
+  
+	var $btn = $(this);
+		$btn.button('loading');
+		setTimeout(function(){
+      location.href = 'User Screen/userHomePage.html';
+      
+  },3000);
+  
+ 
+});
+
+$('.creater').on('click',function(){
+  
+	var $btn = $(this);
+		$btn.button('loading');
+		setTimeout(function(){
+      location.href = 'Creater Screen/createrScreen.html';
+      
+  },3000);
+  
+ 
+});
+

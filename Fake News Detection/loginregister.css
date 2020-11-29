@@ -99,13 +99,40 @@ ul {
       padding-right: 50px;
   }
 
-  .rbtn
+  /*.rbtn
   {
       margin-left:100px;
       margin-top: 50px;
       width:200px;
       background-color: pink;
       font-weight: bold;
+  }*/
+
+  /*.vbtn
+  {
+      margin-left:15px;
+      margin-top: 50px;
+      width:200px;
+      background-color: pink;
+      font-weight: bold;
+  }*/
+
+  #regCreator
+  {
+    margin-left:100px;
+    margin-top: 50px;
+    width:200px;
+    background-color: pink;
+    font-weight: bold;
+  }
+
+  #regCustomer
+  {
+    margin-left:100px;
+    margin-top: 50px;
+    width:200px;
+    background-color: pink;
+    font-weight: bold;
   }
 
   .vbtn
@@ -117,5 +144,10 @@ ul {
       font-weight: bold;
   }
 
+  
+
+  
+
+  
 
   

@@ -33,8 +33,7 @@ var headlines=["h1","h2","h3","h4","h5","h6","h7","h8","h9","h10","h11","h12","h
 var news=["c1","c2","c3","c4","c5","c6","c7","c8","c9","c10","c11","c12","c13","c14","c15","c16","c17","c18","c19","c20","c21","c22","c23","c24","c25","c26","c27","c28","c29","c30"]
 
 var newsItems=document.querySelectorAll(".timeline ul li div p");
-var newsHeadlines=document.querySelectorAll(".timeline ul li div time");
-console.log(newsItems.length+" asdasd");
+var newsHeadlines=document.querySelectorAll(".timeline ul li div time");  
 for(var i=0;i<newsItems.length;i++)
 {
   newsItems[i].innerHTML=news[i];

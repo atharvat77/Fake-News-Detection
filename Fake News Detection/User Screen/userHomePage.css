@@ -92,6 +92,7 @@
     height:200px;
     background: #58c573;
     background-size: cover;
+    overflow-y: scroll;
     background-image: url(images/newsbg.jfif);
     }
     
