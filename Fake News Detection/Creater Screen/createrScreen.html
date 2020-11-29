@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="createrScreen.css">
+</head>
+
+
+
+
+
+<body>
+  <style>
+    /* width */
+    ::-webkit-scrollbar {
+      width: 10px;
+      
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px rgb(224, 149, 149); 
+      border-radius: 20px;
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: brown; 
+      border-radius: 10px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: brown; 
+    }
+    </style>
+    <nav id="MainNavBar">
+        <ul class="navItems">
+            <li> <h2>Welcome Username</h2></li>
+            <li id="navLogo"><img src="images/logo1.jfif"></li>
+            <li><h1>Your Fake News Fighter</h1></li>
+            <li class="navAnim"><img src="images/hiRobo.gif"/></li>
+        </ul>
+    </nav>
+
+    <section>Hello Creators we welcome you in this fight against fake news<br><p>Create the content by filling the details below</p></section>
+
+    <div class="regform">
+      <h1>Add Your Content Here</h1></div>
+    
+      <div class ="main">
+    <form id ="testForm">
+      <div id="name">
+      <h2 class ="name">Name</h2>
+      <input id ="firstname" type="text" required name ="first_name" ><br>
+      <label id="firstlabel"> first name</label>
+      <input id ="lastname" type="text" required name ="last_name"><br>
+      <label id="lastlabel"> last name</label>
+      </div>
+    
+      <h2 class ="name">Channel Name</h2>
+      <input id ="profession" type="text" name ="profession" placeholder="Channel Name">
+      
+      <h2 class ="name">Email</h2>
+      <input id ="email" type="text" required name ="email" placeholder="Email Address">
+
+      <h2 class ="name">Content</h2>
+      <textarea id="content"  rows=20 cols="70" placeholder="Write your news here..."></textarea>
+
+      <button type="submit" id="submitForm">Create Content</button>
+        
+        
+      
+    </form>
+    
+    </div>
+      
+    <script  type="text/javascript" src="createrScreen.js"></script>
+</body>
